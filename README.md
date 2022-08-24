@@ -2,6 +2,8 @@
 
 <h1>DeepCourse: Deep Learning for Computer Vision</h1>
 
+This course is the following of the one previously proposed by Arthur Douillard.
+
 <h2> <a href="https://arthurdouillard.com/deepcourse/">arthurdouillard.com/deepcourse/</a></h2>
 </div>
 
@@ -14,12 +16,10 @@ If you find a mistake (in the lesson, notebook, or quiz), please open an issue h
 
 # Roadmap to do
 
-- [X] Add all major lessons + notebooks + quiz
-- New architectures
-  - [X] Lesson (transformer, new kind of mlp, involution, NAS, what else?)
-  - [X] Notebook transformer
-  - [X] Notebook MLP-Mixer
-  - [X] Quiz
+- DNN Compression
+  - [ ] Lesson
+  - [ ] Notebook
+  - [ ] Quiz
 - Robustness (uncertainty, adversarial attack)
   - [ ] Lesson
   - [ ] Notebook
