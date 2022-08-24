@@ -1,0 +1,13 @@
+{{ $image := .Get "src"}}
+{{ $type_arr := split $image "." }}
+{{ $srcbase := index $type_arr 0 }}
+
+<figure>
+    <picture>
+        <source srcset="{{$srcbase}}.webp" type="image/webp">
+        <img loading="lazy" src="{{.Get `src`}}" alt="{{.Get `alt` }}" defer>
+    </picture>
+    <figcaption>
+        <p class="caption">{{.Get "alt" }}</p>
+    </figcaption>
+</figure>
